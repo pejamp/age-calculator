@@ -1,0 +1,9 @@
+.error {
+  color: var(--primary-light-red);
+}
+
+.error__message {
+  font-size: 12px;
+  font-style: italic;
+  color: var(--primary-light-red);
+}

@@ -1,0 +1,16 @@
+.container {
+  width: 100%;
+  background-color: var(--neutral-white);
+  height: fit-content;
+  padding: 48px 24px;
+  border-radius: 24px 24px 100px 24px;
+  box-shadow: 0 0 6px var(--neutral-off-white);
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 840px;
+    padding: 60px 56px;
+    border-radius: 24px 24px 200px 24px;
+  }
+}

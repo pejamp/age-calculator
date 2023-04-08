@@ -1,0 +1,16 @@
+.form__label {
+  color: var(--neutral-smokey-grey);
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 12px;
+  letter-spacing: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media screen and (min-width: 1200px) {
+  .form__label {
+    gap: 12px;
+  }
+}

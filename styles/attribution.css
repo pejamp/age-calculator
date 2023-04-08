@@ -1,0 +1,11 @@
+.attribution {
+  font-weight: 700;
+  text-align: center;
+  color: var(--neutral-off-black);
+  padding: 16px;
+}
+
+.attribution a {
+  font-style: italic;
+  color: var(--primary-purple);
+}

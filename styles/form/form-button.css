@@ -1,0 +1,31 @@
+.form__button {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background-color: var(--primary-purple);
+  position: absolute;
+  left: 50%;
+  bottom: calc(-65px / 2);
+  transform: translateX(-50%);
+  background-image: url('/assets/images/icon-arrow.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px;
+  transition: background-color 300ms ease-out;
+}
+
+.form__button:hover {
+  background-color: var(--neutral-off-black);
+}
+
+@media screen and (min-width: 1200px) {
+  .form__button {
+    width: 96px;
+    height: 96px;
+    background-size: 44px;
+    bottom: calc(-96px / 2);
+    right: 0;
+    left: auto;
+    transform: none;
+  }
+}

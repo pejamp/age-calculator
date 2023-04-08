@@ -1,0 +1,13 @@
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: var(--neutral-off-white);
+  padding: 86px 16px;
+}
+
+@media screen and (min-width: 1200px) {
+  .main {
+    align-items: center;
+  }
+}

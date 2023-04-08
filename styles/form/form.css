@@ -1,0 +1,15 @@
+.form {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-bottom: 2px solid var(--neutral-off-white);
+  padding-bottom: 62px;
+  position: relative;
+}
+
+@media screen and (min-width: 1200px) {
+  .form {
+    gap: 32px;
+    padding-bottom: 47px;
+  }
+}

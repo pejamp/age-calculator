@@ -1,0 +1,11 @@
+.date {
+  font-size: 54px;
+  font-weight: 800;
+  font-style: italic;
+}
+
+@media screen and (min-width: 1200px) {
+  .date {
+    font-size: 86px;
+  }
+}
