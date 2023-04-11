@@ -20,10 +20,6 @@
   caret-color: var(--primary-purple);
 }
 
-.form__input:required {
-  border-color: var(--primary-light-red);
-}
-
 @media screen and (min-width: 1200px) {
   .form__input {
     max-width: 160px;

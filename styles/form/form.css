@@ -1,6 +1,6 @@
 .form {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 16px;
   border-bottom: 2px solid var(--neutral-off-white);
   padding-bottom: 62px;

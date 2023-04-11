@@ -2,8 +2,15 @@
   color: var(--primary-light-red);
 }
 
+.error input {
+  border-color: var(--primary-light-red);
+}
+
 .error__message {
   font-size: 12px;
   font-style: italic;
+  font-weight: 400;
+  letter-spacing: normal;
+  text-transform: none;
   color: var(--primary-light-red);
 }
