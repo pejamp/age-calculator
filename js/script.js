@@ -1,5 +1,5 @@
 import { insertOnView } from "./insertOnView.js";
-import { isEmptyField, isValidDate } from "./validate.js";
+import { isEmptyField, isValidDate, isValidDateInput } from "./validate.js";
 
 const form = document.querySelector("[data-form]");
 const day = document.getElementById("day");
@@ -14,8 +14,12 @@ form.addEventListener("submit", (event) => {
     return;
   }
 
-  if (isValidDate(year.value, month.value, day.value)) {
-    console.log("passei")
+  if (!isValidDateInput(year.value, month.value, day.value)) {
+    return;
+  }
+
+  if (!isValidDate(year.value, month.value, day.value)) {
+    console.log("inválida!")
   }
 
   const newDate = {
