@@ -93,14 +93,10 @@ export function isValidDateInput(year, month, day) {
 export function isValidDate(year, month, day) {
   const date = new Date(year, month - 1, day);
 
-  console.log(Number(month), date.getMonth());
-
   const isDateValid =
     date.getFullYear() === Number(year) &&
     date.getMonth() === Number(month) - 1 &&
     date.getDate() === Number(day);
-
-  console.log(isDateValid);
 
   inputElements.forEach((input) => {
     if (!isDateValid) {

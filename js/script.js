@@ -1,3 +1,4 @@
+import { calculate } from "./calculate.js";
 import { insertOnView } from "./insertOnView.js";
 import { isEmptyField, isValidDate, isValidDateInput } from "./validate.js";
 
@@ -28,5 +29,5 @@ form.addEventListener("submit", (event) => {
     day: day.value
   }
 
-  insertOnView(newDate);
+  insertOnView(calculate(newDate));
 })
