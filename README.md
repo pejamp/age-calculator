@@ -44,8 +44,8 @@ $ cd age-calculator
 
 ## 🌐 Project
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/html-css-javascript-NfMSBTzivH)
-- Live Site URL: [Add live site URL here](https://age-calculator-steel.vercel.app/)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/html-css-javascript-NfMSBTzivH)
+- Live Site URL: [Age Calculator](https://age-calculator-steel.vercel.app/)
 
 ## 👨‍💻 Author
 
